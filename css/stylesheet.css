@@ -1,3 +1,25 @@
+header{
+    background-color: #24252A;
+}
+
+.nav-content{
+    font-size: 16px;
+    color: #edf0f1;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+body{
+    background-color: brown;
+}
+
 .profile-parent-div{
     margin-top: 5%;
     margin-left: 8%;
@@ -25,22 +47,39 @@
 }
 #child1 div{
     margin-top: 35%;
-    background-color: greenyellow;
+    background-color: aliceblue;
 }
 #child2{
     background-color: palevioletred;
     width: 80%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
    
     
     
 }
 #child2 div{
     
-    margin: 1%;
+    height: 100%;
     
-
+    margin-top: 2px;
     background-color: burlywood;
+    width: 100%;
+    
+}
+#alt-character-text-p{
+    text-align: center;
+}
+
+#character-viewer{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+#character-viewer div{
+    width: 20%;
+    background-color: greenyellow;
     
 }
