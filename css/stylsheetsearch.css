@@ -1,0 +1,43 @@
+#searchsection-parent{
+    display: flex;
+    justify-content: center;
+}
+
+.parent-wrapper{
+    display: flex;
+    
+    justify-content: space-around;
+    background-color: brown;
+}
+.parent-wrapper div{
+    width: 100%;
+    background-color: aliceblue;
+    margin: 20px;
+}
+#giltersection-parent div{
+    background-color: greenyellow;
+    width: fit-content;
+}
+
+#searchbar{
+    width: fit-content;
+}
+
+#role{
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#role div{
+
+}
+
+#days-availble{
+    display: flex;
+}
+
+#time{
+    display: flex;
+}
